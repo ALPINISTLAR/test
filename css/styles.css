@@ -320,7 +320,7 @@ tr {
 
 @media only screen  and (max-width: 430px){
   .border__table td{
-    border-left: 3px solid #222;
+    border-left: 2px solid #222;
     padding-right: 5px;
   }
   .border__table b{
@@ -331,5 +331,20 @@ tr {
   .border__img{
     width: 250px;
     height: 250px;
+  }
+  table {
+    border: 2px solid #222;
+  }
+  tr {
+    border: 2px solid #222;
+  }
+  .table-left td{
+    border: 2px solid #222;
+  }
+  .table-right td{
+    border: 2px solid #222;
+  }
+  .border{
+    border: 2px solid #222;
   }
 }
