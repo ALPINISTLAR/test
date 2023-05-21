@@ -174,8 +174,8 @@ tr {
 
 @media only screen  and (max-width: 1280px){
   .container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
   }
 
 }
@@ -193,9 +193,12 @@ tr {
   .table-right td{
     padding-right: 25px;
   }
+  .border{
+    padding: 10px;
+  }
 }
 
-@media only screen  and (max-width: 1020px){
+@media only screen  and (max-width: 950px){
   .container {
     padding-left: 30px;
     padding-right: 30px;
@@ -210,15 +213,15 @@ tr {
     padding-right: 15px;
   }
   .border{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
   .border__img{
     width: 325px;
     height: 325px;
-    margin-right: 0;
-    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .border__table td{
+    padding: 8px;
   }
 }
 
@@ -241,6 +244,13 @@ tr {
   }
   .table-right td{
     padding-right: 8px;
+  }
+
+}
+@media only screen  and (max-width: 800px) {
+  .border{
+    display: flex;
+    flex-direction: column;
   }
 }
 @media only screen  and (max-width: 700px) {
